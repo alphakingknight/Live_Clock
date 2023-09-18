@@ -1,0 +1,73 @@
+body{
+    margin: 0; 
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    /* background-image: url(./casey-horner-O0R5XZfKUGQ-unsplash.jpg); */
+    background-image: url(./Images/casey-horner-O0R5XZfKUGQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Space Grotesk', sans-serif;
+    color:white;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin:5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    opacity: .8;
+    /* color: whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    position: absolute;
+    bottom: 0;
+    font-size: 40px;
+}
+.calender{
+    margin-left: 70px;
+    letter-spacing: 5px;
+    width: 100px;
+    height: 80px;
+    opacity: .8;
+    /* color: whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+button{
+    position: absolute;
+    Right:10px;
+    top:10px;
+}
